@@ -1,7 +1,7 @@
 /* header section style */
 .header-section{
     width: 1920px;
-    height: 850px;
+    height: 810px;
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
     justify-content: space-around;
@@ -11,6 +11,7 @@
     width: 685px;
     height: 800px;
     padding-bottom: 0px;
+    
 }
 
 .header-title-container{
@@ -120,7 +121,8 @@ line-height: 30px;
     display: flex;
     list-style: none;
     justify-content: center;
-    align-items: center;
+    gap: 20px;
+    margin-bottom:
 
 }
 
@@ -129,10 +131,25 @@ line-height: 30px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding-bottom: 0;
+    margin-bottom: 0px;
     
 }
-
+#image-1{
+    height: 26vh;
+    margin-left: 30px;
+    margin-top: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ #image-2{
+    margin-top: 100px;
+    margin-left: 40px;
+ }
+ #image-3{
+    margin-top: 68px;
+    margin-left: 60px;
+ }   
 .img-2{
     width: 464px;
     height: 538px;
