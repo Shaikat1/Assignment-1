@@ -168,6 +168,13 @@ line-height: 30px;
     justify-content: center;
     gap: 350px;
     margin-bottom: 50px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
 }
 
 .fsection-title{
@@ -266,4 +273,41 @@ footer{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* bonus section styles */
+.bsection-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1922px;
+    height: 620px;
+    background-color: rgba(5, 151, 160, 0.15);
+    margin: 80px 0px;
+
+
+}
+.bsection-img{
+    width: 900px;
+    height: 620px;
+}
+
+.bsection-text-container{
+    text-align: center;
+    padding: 210px 270px;
+}
+.bsection-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
