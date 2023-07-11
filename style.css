@@ -1,7 +1,7 @@
 /* header section style */
 .header-section{
     width: 1920px;
-    height: 810px;
+    height: 800px;
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
     justify-content: space-around;
