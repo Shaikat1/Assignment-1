@@ -37,6 +37,7 @@ line-height: 30px;
     padding: 20px 43px; 
     background-color: #E55473;
     color: white;
+    border-radius: 8px;
 }
 
  /* middle section styles */
@@ -62,6 +63,9 @@ line-height: 30px;
     font-weight: 800;
     line-height: normal;
 }
+.off{
+    color: #E55473;
+}
 
 .middle-section-details{
     color: rgba(39, 39, 39, 0.60);
@@ -83,6 +87,7 @@ line-height: 30px;
     display: flex;
     justify-content: center;
     gap: 20px;
+    list-style: none;
 }
 .image-section-container{
     text-align: center;
@@ -101,6 +106,144 @@ line-height: 30px;
 
 .image-section-details{
     color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* featured section styles */
+
+.fsection-img-container{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-1{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding-bottom: 0;
+    
+}
+
+.img-2{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.img-3{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.caption-container{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 350px;
+    margin-bottom: 50px;
+}
+
+.fsection-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.fsection-details{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+
+/* lower section styles */
+
+.lower-section-container{
+    background: url(asset/Rectangle\ 9.png);
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    margin:150px 240px;
+}
+
+.lower-section-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+..lower-section-details{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.lsection-text-container{
+    text-align: center;
+    padding-top: 122px;
+}
+.email-container{
+    text-align: center;
+}
+.email{
+    width: 700px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: large;
+}
+
+/* footer styles */
+footer{
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+    color: aliceblue;
+}
+.footer-container{
+    text-align: center;
+    padding: 100px;
+
+}
+.footer-title{
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.flower{
+    color: #E55473;
+}
+.footer-details{
+    color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-family: Lato;
     font-size: 18px;
